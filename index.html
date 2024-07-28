@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>linkedln</title>
+    <link rel="stylesheet" href="./assets/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: { 
+          extend: {
+            container: {
+              
+              center: true,
+              padding: {
+                xl: "2rem",
+              },
+              screens: {
+                xl: "1200px",
+              },
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-[#F5F6F8] 
+    
+  ">
+  
+    <!-- header -->
+    <!-- <div class="container mx-auto bg-[red]">
+      <div class="">
+        <div class="h-[56px] bg-[#FFFFFF] flex items-center mt-[12px]">
+          <img src="./assets/logo-1.svg" alt="" />
+
+          <div class="bg-[#DEDEDE52] ml-[18px] w-[312px] flex items-center">
+            <img src="./assets/search (1) 1 (1).svg" alt="" />
+            <input
+              class="h-[32px] ps-5 w-full bg-transparent rounded"
+              type="search"
+              id=""
+              name=""
+              placeholder="Search..."
+            />
+          </div>
+          <img class="ml-[68px] mr-[34px]" src="./assets/Home (1).svg" alt="" />
+          <div class="flex gap-[32px]">
+            <img class="" src="./assets/users.svg" alt="" />
+            <img class="" src="./assets/briefcase (1).svg" alt="" />
+            <img src="./assets/message-square.svg" alt="" />
+            <img src="./assets/bell (1).svg" alt="" />
+            <a href="#"><img src="./assets/grid.svg" alt="" /></a>
+          </div>
+          <div class="mb-[15px] flex">
+            <p class="text-[#17272F]">Cameron Williamson</p>
+            s
+
+            <img
+              class="w-[24px] h-[24px] rounded-full"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyQvNh-gFXfuM_022WG3t-Bbd57aPzPCwjYQ&s"
+              alt=""
+            />
+            <img src="./assets/chevron-up (1) 2.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <nav class="navbar flex items-center bg-[#ffffff] py-4">
+      <div
+        class="container flex justify-between items-center bg-[#FFFFFF] p-0 column"
+      >
+        <div class="flex items-center justify-center">
+          <a href="#"><img src="./assets/linkedin 1 (3).svg" alt="" /></a>
+          <div
+            class="bg-[#DEDEDE52] ml-[18px] w-[312px] flex items-center h-[32px]"
+          >
+            <img src="./assets/log0-1.svg" alt="" />
+            <input
+              class="h-[32px] ps-5 w-full bg-transparent rounded w-[312px]"
+              type="search"
+              id=""
+              name=""
+              placeholder="Search..."
+            />
+          </div>
+        </div>
+        <div class="w-[350px] bg-[#FFFFFF] flex">
+          <div class="flex">
+            <a href="#"
+              ><img class="mr-[34px]" src="./assets/logo-2.svg" alt=""
+            /></a>
+            <a href="#"
+              ><img class="mr-[32px]" src="./assets/logo-3.svg" alt=""
+            /></a>
+            <a href="#"
+              ><img class="mr-[32px]" src="./assets/logo-4.svg" alt=""
+            /></a>
+            <a href="#"
+              ><img class="mr-[32px]" src="./assets/logo-5.svg" alt=""
+            /></a>
+            <a href="#"
+              ><img class="mr-[32px]" src="./assets/logo-6.svg" alt=""
+            /></a>
+            <a href="#"
+              ><img class="mr-[32px]" src="./assets/logo-7.svg" alt=""
+            /></a>
+          </div>
+        </div>
+        <div class="flex items-center">
+          <div class="bg-[#FFFFFF] flex">
+            <div>
+              <a href="#"><h2 class="text-[14px]">Mustafa Guliyev</h2></a>
+              <p class="text-[10px] text-[#31B057] items-end flex justify-end">
+                Online
+              </p>
+            </div>
+            <div class="flex items-center">
+              <a href="#"><img
+                src="https://media.licdn.com/dms/image/D4D03AQHwRkiwr77zfA/profile-displayphoto-shrink_400_400/0/1719563178352?e=1727308800&v=beta&t=WNXa0EDSXXllhRxxx9WWY11RBLpOJaCwZqdz5haYwm8"
+                class="w-[24px] rounded-full flex-shrink-0"
+              /></a>
+              <img src="./assets/chevron-up (1) 2 (2).svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="flex gap-4">
+      <div class="flex gap-[30px]">
+        <div>
+          <div
+            class="w-[270px] rounded-[6px] mt-[16px] bg-[#ffffff] flex column ml-[30px]"
+          >
+            <div class=" ">
+              <div class="relative mb-[36px]">
+                <img
+                  src="https://media.licdn.com/dms/image/D4D16AQEBbTFZMLMwUQ/profile-displaybackgroundimage-shrink_350_1400/0/1719299031014?e=1727308800&v=beta&t=CqYsSHXc66ec8G0qS1NRWuZgdgpKz6_36jEiFaNJBok"
+                  class="h-[43px] w-[254px] rounded-[4px] pl-[8px] pr-[8px] pt-[8px]"
+                />
+                <img
+                  src="https://media.licdn.com/dms/image/D4D03AQHwRkiwr77zfA/profile-displayphoto-shrink_400_400/0/1719563178352?e=1727308800&v=beta&t=WNXa0EDSXXllhRxxx9WWY11RBLpOJaCwZqdz5haYwm8"
+                  class="absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 h-16 w-16 rounded-full border-white border-4"
+                />
+              </div>
+
+              <div class="">
+                <a href="#">
+                  <h2 class="text-[16px] font-medium flex justify-center">
+                    Mustafa Guliyev
+                  </h2></a
+                >
+                <a href="#">
+                  <p
+                    class="text-[14px] font-normal text-[#AAAAAA] flex justify-center"
+                  >
+                    junior front-end developer
+                  </p>
+                </a>
+              </div>
+
+              <hr class="w-[238px] text-[#EDF0F5] mt-[15px]" />
+
+              <div class="flex justify-between ml-[15px] mr-[16px] mt-[16.5px]">
+                <div class="text-[14px] font-normal">
+                  Who viewed your profile
+                </div>
+                <div class="text-[14px] font-medium text-[#006699]">90</div>
+              </div>
+
+              <div class="flex justify-between mt-[16px] ml-[15px] mr-[16px]">
+                <div class="text-[14px] font-normal">Views of your post</div>
+                <div class="text-[14px] font-medium text-[#006699]">627</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-[270px] bg-[#FFFFFF] mt-[16px] ml-[30px] rounded-md">
+            <div class="ps-4">
+              <h6 class="text-[#17272F]  mt-[16px] font-medium pt-3 mb-1">
+                NEWEST
+              </h6>
+              <img src="./assets/Line 5.svg" alt="" />
+            </div>
+            <a href="#">
+              <img class="ml-[16px] mt-[12px]" src="./assets/logo-9.svg" alt=""
+            /></a>
+            <a href="#">
+              <img
+                class="ml-[16px] mt-[12px]"
+                src="./assets/logo-10.svg"
+                alt=""
+            /></a>
+            <a href="#">
+              <img
+                class="ml-[16px] mt-[12px]"
+                src="./assets/logo-11.svg"
+                alt=""
+            /></a>
+            <a href="#">
+              <img
+                class="ml-[16px] mt-[12px]"
+                src="./assets/logo-12.svg"
+                alt=""
+            /></a>
+            <div class="flex items-center justify-between mt-[36px]">
+              <h6 class="text-[#17272F] ml-[15px] font-medium">GROUP</h6>
+              <div class="flex items-center gap-2">
+                <span class="text-[#31B057]">Active</span>
+
+                <img src="./assets/chevron-up (1) 1.svg ]" alt="" />
+              </div>
+            </div>
+
+            <img src="./assets/Line 5.svg" alt="" />
+            <div class="ml-[15px] mt-[12px]">
+              <a href="#"
+                ><img class="mb-[8px]" src="./assets/logo-13.svg" alt=""
+              /></a>
+              <a href="#"
+                ><img class="mb-[8px]" src="./assets/logo-14.svg" alt=""
+              /></a>
+              <a href="#"
+                ><img class="mb-[8px]" src="./assets/logo-15.svg" alt=""
+              /></a>
+              <a href="#"
+                ><img class="mb-[8px]" src="./assets/logo-16.svg" alt=""
+              /></a>
+            </div>
+          </div>
+
+          <!-- card -->
+          <div
+            class="w-[270px] mt-[16px] ml-[30px] flex bg-[#FFFFFF] items-center justify-between rounded-[6px] h-[51px] "
+          >
+            <p class="text-[#17272F] ml-[16px] font-medium">Add Event</p>
+            <img class="mr-[16px]" src="./assets/plus 1 (1).svg" alt="" />
+          </div>
+          <div
+            class="w-[270px] bg-[#FFFFFF] mt-[16px] ml-[30px] flex items-center justify-center h-[51px] rounded-[6px]"
+          >
+            <a href="#"><p class="text-[#006699] font-medium">Find more</p></a>
+          </div>
+        </div>
+        <div class="flex flex-col mt-4 w-[540px]">
+          <div class="bg-[#fff] rounded-lg w-[545px]">
+            <div class="mx-4 border-b border-b-[#EDF0F5] w-full">
+              <textarea
+                class="resize-none outline-none h-[75px] py-[30px] text-[#AAAAAA] placeholder:text-[#AAAAAA] w-full rounded-lg text-[17px] placeholder:text-[17px]"
+                placeholder="Create Post..."
+              ></textarea>
+            </div>
+            <ul class="mx-4 flex justify-between py-4">
+              <li>
+                <button class="flex items-center gap-2">
+                  <svg
+                    width="20.000000"
+                    height="20.000000"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <desc>Created with Pixso.</desc>
+                    <defs>
+                      <clipPath id="clip11_1">
+                        <rect
+                          id="camera (1) 1"
+                          rx="-0.500000"
+                          width="19.000000"
+                          height="19.000000"
+                          transform="translate(0.500000 0.500000)"
+                          fill="white"
+                          fill-opacity="0"
+                        />
+                      </clipPath>
+                    </defs>
+                    <rect
+                      id="camera (1) 1"
+                      rx="-0.500000"
+                      width="19.000000"
+                      height="19.000000"
+                      transform="translate(0.500000 0.500000)"
+                      fill="#FFFFFF"
+                      fill-opacity="0"
+                    />
+                    <g clip-path="url(#clip11_1)">
+                      <path
+                        id="Vector"
+                        d="M18.67 17.01C18.36 17.32 17.94 17.5 17.5 17.5L2.5 17.5C2.05 17.5 1.63 17.32 1.32 17.01C1 16.69 0.83 16.27 0.83 15.83L0.83 6.66C0.83 6.22 1 5.8 1.32 5.48C1.63 5.17 2.05 5 2.5 5L5.83 5L7.5 2.5L12.5 2.5L14.16 5L17.5 5C17.94 5 18.36 5.17 18.67 5.48C18.99 5.8 19.16 6.22 19.16 6.66L19.16 15.83C19.16 16.27 18.99 16.69 18.67 17.01Z"
+                        stroke="#31B057"
+                        stroke-opacity="1.000000"
+                        stroke-width="1.500000"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        id="Vector"
+                        d="M9.99 14.16C8.15 14.16 6.66 12.67 6.66 10.83C6.66 8.99 8.15 7.5 9.99 7.5C11.84 7.5 13.33 8.99 13.33 10.83C13.33 12.67 11.84 14.16 9.99 14.16Z"
+                        stroke="#31B057"
+                        stroke-opacity="1.000000"
+                        stroke-width="1.500000"
+                        stroke-linejoin="round"
+                      />
+                    </g>
+                  </svg>
+                  Photo
+                </button>
+              </li>
+              <li>
+                <button class="flex items-center gap-2">
+                  <svg
+                    width="20.000000"
+                    height="20.000000"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <desc>Created with Pixso.</desc>
+                    <defs>
+                      <clipPath id="clip11_4">
+                        <rect
+                          id="video 1"
+                          rx="-0.500000"
+                          width="19.000000"
+                          height="19.000000"
+                          transform="translate(0.500000 0.500000)"
+                          fill="white"
+                          fill-opacity="0"
+                        />
+                      </clipPath>
+                    </defs>
+                    <rect
+                      id="video 1"
+                      rx="-0.500000"
+                      width="19.000000"
+                      height="19.000000"
+                      transform="translate(0.500000 0.500000)"
+                      fill="#FFFFFF"
+                      fill-opacity="0"
+                    />
+                    <g clip-path="url(#clip11_4)">
+                      <path
+                        id="Vector"
+                        d="M13.33 10L19.16 14.16L19.16 5.83L13.33 10Z"
+                        stroke="#388BF2"
+                        stroke-opacity="1.000000"
+                        stroke-width="1.500000"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        id="Vector"
+                        d="M11.66 4.16C12.58 4.16 13.33 4.91 13.33 5.83L13.33 14.16C13.33 15.08 12.58 15.83 11.66 15.83L2.49 15.83C1.57 15.83 0.83 15.08 0.83 14.16L0.83 5.83C0.83 4.91 1.57 4.16 2.49 4.16L11.66 4.16Z"
+                        stroke="#388BF2"
+                        stroke-opacity="1.000000"
+                        stroke-width="1.500000"
+                        stroke-linejoin="round"
+                      />
+                    </g>
+                  </svg>
+  
+                  Video
+                </button>
+              </li>
+              <li>
+                <button class="flex items-center gap-2">
+                  <svg
+                    width="20.000000"
+                    height="20.000000"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <desc>Created with Pixso.</desc>
+                    <defs>
+                      <clipPath id="clip11_10">
+                        <rect
+                          id="calendar 1"
+                          rx="-0.500000"
+                          width="19.000000"
+                          height="19.000000"
+                          transform="translate(0.500000 0.500000)"
+                          fill="white"
+                          fill-opacity="0"
+                        />
+                      </clipPath>
+                    </defs>
+                    <rect
+                      id="calendar 1"
+                      rx="-0.500000"
+                      width="19.000000"
+                      height="19.000000"
+                      transform="translate(0.500000 0.500000)"
+                      fill="#FFFFFF"
+                      fill-opacity="0"
+                    />
+                    <g clip-path="url(#clip11_10)">
+                      <path
+                        id="Vector"
+                        d="M15.83 3.33C16.75 3.33 17.5 4.07 17.5 5L17.5 16.66C17.5 17.58 16.75 18.33 15.83 18.33L4.16 18.33C3.24 18.33 2.5 17.58 2.5 16.66L2.5 5C2.5 4.07 3.24 3.33 4.16 3.33L15.83 3.33Z"
+                        stroke="#FC8338"
+                        stroke-opacity="1.000000"
+                        stroke-width="1.500000"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        id="Vector"
+                        d="M13.33 1.66L13.33 4.99"
+                        stroke="#FC8338"
+                        stroke-opacity="1.000000"
+                        stroke-width="1.500000"
+                        stroke-linejoin="round"
+                        stroke-linecap="round"
+                      />
+                      <path
+                        id="Vector"
+                        d="M6.66 1.66L6.66 4.99"
+                        stroke="#FC8338"
+                        stroke-opacity="1.000000"
+                        stroke-width="1.500000"
+                        stroke-linejoin="round"
+                        stroke-linecap="round"
+                      />
+                      <path
+                        id="Vector"
+                        d="M2.5 8.33L17.5 8.33"
+                        stroke="#FC8338"
+                        stroke-opacity="1.000000"
+                        stroke-width="1.500000"
+                        stroke-linejoin="round"
+                        stroke-linecap="round"
+                      />
+                    </g>
+                  </svg>
+                  Event
+                </button>
+              </li>
+              <li>
+                <button class="flex items-center gap-2">
+                  <svg
+                    width="20.000000"
+                    height="20.000000"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <desc>Created with Pixso.</desc>
+                    <defs>
+                      <clipPath id="clip11_15">
+                        <rect
+                          id="edit (1) 1"
+                          rx="-0.500000"
+                          width="19.000000"
+                          height="19.000000"
+                          transform="translate(0.500000 0.500000)"
+                          fill="white"
+                          fill-opacity="0"
+                        />
+                      </clipPath>
+                    </defs>
+                    <rect
+                      id="edit (1) 1"
+                      rx="-0.500000"
+                      width="19.000000"
+                      height="19.000000"
+                      transform="translate(0.500000 0.500000)"
+                      fill="#FFFFFF"
+                      fill-opacity="0"
+                    />
+                    <g clip-path="url(#clip11_15)">
+                      <path
+                        id="Vector"
+                        d="M9 4L3.55 4C3.14 4 2.74 4.16 2.45 4.45C2.16 4.74 2 5.14 2 5.55L2 16.44C2 16.85 2.16 17.25 2.45 17.54C2.74 17.83 3.14 18 3.55 18L14.44 18C14.85 18 15.25 17.83 15.54 17.54C15.83 17.25 16 16.85 16 16.44L16 11"
+                        stroke="#E52A34"
+                        stroke-opacity="1.000000"
+                        stroke-width="1.500000"
+                        stroke-linejoin="round"
+                        stroke-linecap="round"
+                      />
+                      <path
+                        id="Vector"
+                        d="M16.34 2C16.78 2 17.2 2.17 17.51 2.48C17.82 2.79 18 3.21 18 3.65C18 4.09 17.82 4.51 17.51 4.82L10.11 12.22L7 13L7.77 9.88L15.17 2.48C15.48 2.17 15.9 2 16.34 2Z"
+                        stroke="#E52A34"
+                        stroke-opacity="1.000000"
+                        stroke-width="1.500000"
+                        stroke-linejoin="round"
+                      />
+                    </g>
+                  </svg>
+  
+                  Write Articles
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="cursor-pointer mt-5 text-[14px] w-full px-5 py-3 flex items-center justify-between bg-[#EFF0F2] p-2 rounded-[4px]"
+          >
+            <span class="text-[#17272F]">Filter post by :</span>
+  
+            <div class="flex items-center gap-1 cursor-pointer">
+              <span class="font-medium text-[#17272F]">Popular</span>
+              <img class="size-5" src="./assets/chevron-up (1) 1.svg" alt="" />
+            </div>
+          </div>
+          <!-- posts -->
+          <div class="mt-5 bg-white  rounded-[6px]">
+            <div class="flex items-center justify-between px-4">
+              <div class="flex items-center gap-3">
+                <!-- posts -->
+                <div class="mt-5 bg-white rounded-[6px]">
+                  <div class="flex items-center justify-between ">
+                    <div class="flex items-center gap-3">
+                      <img
+                        class="size-[36px] rounded-full object-cover"
+                        src="https://www.shutterstock.com/image-photo/office-portrait-focused-programmer-wearing-260nw-2078917507.jpg"
+                        alt=""
+                      />
+                      <div class="flex flex-col">
+                        <h4 class="text-[14px] font-medium text-[#17272F]">
+                          <a href="#">Brooklyn Simmons</a> 
+                        </h4>
+                        <p class="text-[12px] text-[#AAA]">
+                          <a href="#"> UI/UX Designer at Freelance</a>
+                        </p>
+                        <p class="text-[10px] text-[#AAA]">7 hour ago</p>
+                      </div>
+                    </div>
+  
+                    <!-- dots -->
+                    <!-- <i class="fa-solid fa-ellipsis"></i> -->
+                    <img
+                      class="cursor-pointer size-6"
+                      src="./assets/chevron-up (1) 1.svg"
+                      alt=""
+                    />
+                  </div>
+  
+                  <hr class="border-t" />
+  
+                  <div class="mt-5">
+                    <p class="text-[14px] text-[#17272F]">
+                      He said, Design is not just what it looks and feels like.
+                      Design is how it work
+                    </p>
+  
+                    <div class="text-[12px] text-[#006699] font-medium mt-3">
+                      <a href="#">#stevejobs #design #apple</a>
+                    </div>
+  
+                    <div class="mt-3 w-full">
+                      <img
+                        class="w-full rounded-[4px]"
+                        src="https://ogimg.infoglobo.com.br/in/2865745-373-a0e/FT1086A/Capa-da-biografia-inedita-de-Steve-Jobs.-Foto-reproducao.jpg"
+                        alt=""
+                      />
+                    </div>
+  
+                    <div class="mt-5 ml-2 flex items-center">
+                      <div class="flex gap-2">
+                        <button>
+                          <img
+                            class="size-4"
+                            src="./assets/heart (3) 1.svg"
+                            alt=""
+                          />
+                        </button>
+                        <button>
+                          <img
+                            class="size-4"
+                            src="./assets/thumbs-up (1) 1.svg"
+                            alt=""
+                          />
+                        </button>
+                      </div>
+                      <div class="ml-5 text-[10px] flex gap-1">
+                        <span class="text-[#17272F]">172</span>
+                        <span class="size-[2px] text-[#17272F]"></span>
+                        <span class="text-[#17272F]">10 Comment</span>
+                      </div>
+                    </div>
+  
+                    <hr class="border-t my-4" />
+  
+                    <div class="flex gap-4 text-[16px] text-[#AAA] gap-[16px]">
+                      <button class="flex gap-2">
+                        <img class="" src="./assets/Group 8.svg" alt="" />
+                      </button>
+                      <button class="flex gap-2">
+                        <img class="" src="./assets/Group 7.svg" alt="" />
+                      </button>
+                      <button class="flex gap-2">
+                        <img class="" src="./assets/Group 9 (2).svg" alt="" />
+                      </button>
+                      <button class="flex gap-2">
+                        <img class="" src="./assets/Group 10.svg" alt="" />
+                      </button>
+                    </div>
+                  </div>
+                  <div
+                                    class="mt-5 w-full flex items-center gap-4"
+                                >
+                                    <img
+                                        class="size-9 rounded-full flex-shrink-0"
+                                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzaMqZ-aQMaF4eYyJ7ajtJ0QG1jQf6RrXXQw&s"
+                                        alt=""
+                                    />
+
+                                    <!-- comment input -->
+                                    <div
+                                        class="w-full flex items-center border rounded-[6px]"
+                                    >
+                                        <input
+                                            class="w-full text-4 outline-none p-4"
+                                            type="text"
+                                            placeholder="Write comment"
+                                        />
+                                        <button
+                                            class="text-[#006699] py-2 px-4 border-l"
+                                        >
+                                            <img
+                                                class="size-5"
+                                                src="./assets/camera (1) 1.svg"
+                                                alt=""
+                                            />
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+  
+                </div>
+                
+  
+                        <!-- comment -->
+                        <div class="mt-4 bg-white p-2 pl-7 rounded-[6px] mt-[1px] ml-[]">
+                          <div class="flex items-center justify-between p-3">
+                              <div class="flex items-center gap-3">
+                                  <img
+                                      class="size-[36px] rounded-full object-cover"
+                                      src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITEhUTExMWFhMXFhoVFxcXFxgYGhgXGBcXGBgbGRoYHSggGBolGxcYIjEiJSkrLi4uFx8zODMsNygtLisBCgoKDg0OGhAQGy0mICUtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS8tLS0tLS0tLS0tLSstLS0tLS0tLS0tLS0tLf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAABQIDBAYHAQj/xABIEAABAwICBgcFBgUBBAsAAAABAAIRAwQhMQUSQVFhcQYHEyKBkfAyobHB0RRCUoLh8QgjM2JywhVzosMWJCU0Q1ODk6Oys//EABoBAQADAQEBAAAAAAAAAAAAAAABAgMEBQb/xAAsEQEAAgIBAwMCBgIDAAAAAAAAAQIDESEEEjEyQVEFImFxgZHB0RSxExU0/9oADAMBAAIRAxEAPwDuKIiAiIgIiICIiAijtNaaoWrDUrVGsAG0xOz4kL5/6U9a95ca9JppspGodUNaS7ULu4C52EgQZAzxEZAO/aT6QWtvPbVmMjOXDCIz44jDNane9b2jGTqPdUggd1ju9OMtkYgcYxwXziapJAnDdxndlOfnxVIyy8OHx/dE6dy0j15UWlwo2rnw6GFz9UPG0nuktOWEHbkot/XjW1j/ANVY1s4d8uIaImQQA457RszXIhsn1hy9SE1sM+G/9/2UJ07ZZdeTS4CrauaJzY7W7u3AwQR4zGycNs0L1paOuHMYHup1HuDWtewgySAASJaMXDbv3L5nIxyJ3R4Z5L0O2z7xnvQ0+zAZxC9XzP0Q6zLy1e0VKr61ACDTcQTEGIc4TM7zl7u/dFOk9C/oirRJ/uY4EOadxnPmJHFSjSaRERAiIgIiICIiAiIgIiICIiAiIgIiIC0Tp51l21hrUmEVboD+mDg04e27IGDMZwqusvp7S0fSNNp1rl7TqtBPdGWsSMsSN0wYyXzG6rrEmS5xmScZMyScZkk5zOeaJiEz0h6U3N49z61QkuiWtJDMMBhJjwUK3MiOOE89vL3KgvjZyO39ZXutiI+glQlfA4jwgbCOU45cl7EzOAk4Th5evkqA7l+mW3lnxXoMZHx4ZfD4oKjO3CQIMyOEH17l7O3w8hh45HzSiZGROMSATnxHAHzGeavU7aoZhpPgeZx8vJNp1K0HH1MHMQOKePr5LJ/2XWw/luI4t4ZH1+lqvZVG5tcOY4jLBR3Qntn4W/fw+mz5LburbpY6wu6cvcbd7tWo0Zd6AH+BiY3bYAWnNcd/x5qrWIxBIIMgg4gg4GRkZClV9nAzivVC9DtLsurOjXYcHNxBza4YEHcQdnxU0pVEREBERAREQEREBERAREQEREBRHSrpBSsbZ9xWMNaIAGJc44NaBxMclLrlX8QN7bi0p0akmu9xfRA1sNUtDnGCBk6BM5mAYQcG0zfvua9StUcS+o7WcTu2Y7gI8liimJ3eMfscCrTnY5q45viIHrD18VCyud/19DFelsbIMQR8FTTaDsOPDmfL6KQtwdbHPKI47OSiZ0msblRQsnHGYGyc43KX0da024xJ3lUPVykSsLWmXVWlap22rDYByjYr4pkmYg/X16xUZaHEdwu90jdOxbHY2Gs2fs434PaD79s/EKumm5Y7mGImRGExEfFYFalx9/y9ZLZRTLRHYPB4hrvfJj9Fi3VuCZ+zztxP0PHimoNy028tabp1mCd4wPuWvXlDUMfdOR+R4rdtIUP7I5H9FA3dEEFpGatS2pZ5Kbh13+HrSLn2teiTLaVUFnKoJIHIifzbF1hcK/h8rBl1c0XYONJrm45gOh0DdBad+G3Z3VdLjkRERAiIgIiICIiAiIgIiICIiAvnr+IVlb7fR1zNA0f5XdAg6xFRs7TIacdjgBkZ+hVwj+I+qe2tGzh2dR0cS5gnngfNEw40507MU/bxXtQDCM1S3BQL1N2/hsGwbRKkaFTz/ZRlEeuCzabtm35etiiy9PKXtqk4b9vrJZNGjjDRJUdbtJcGg8zuCnWNe5obRbDYxMZ8eSwmHTWV630e8xrOIE7wFsWjtEsaAddwOxzX7duahNG6JqEar2wMJEmIzyHP3rZ7Xo8AyA/ccScwZzzhV4+V+fhXRD2ujXJByB/Re3VR/sB0E/vPDf5K/a0Xw3WnWBx2YCB65q5pKzdIdByHrAqu1+1q17o92tqms4ujZhAwznAZqDu9Fvac58tuS2mhobtKj3VCQIww8AB4KM0noNw/puIG7YT44+XBTEx8otFvhg9D9IfY9I29YjAu7J+8NeQMPWXNfTIK+Ub9rwCHAh7e81w2kGfA4L6d6NaS+02lCvBHa0mPIIjEtE+ErppPDiyxykkRFdkIiICIiAiIgIiICIiAiIgLiv8AEdbmLSpA1ZqM1tusQ0tHEd0+S7UuXfxCWL36Pp1GiW0azXPM5NeDTGG3vOahD51cBMJTHEc/JHjBUkc1Cy8xu2f3WS3ftWPR923PLDf+qymNlVsvRIaIp6ziffwW72l3SpNE+W0rVLS2LWA5ZLPo2pe904hlMubTkg1XQYbgZ1ZzjErmtHdLspPZG9ctjPShgECmd0EtBPgSClHpMHAgAtc3NrhDvH6qjqmui+4FIzU1idekaNPsW0tR8nIGm8PDIjAhxBE4qX6c9GqNOq2rb6gaTqupNcCaZJAljBjqGcWDKJAzCWxREcFc0zbmGPZdKg7umNYbVlnTzoxbhvIhaeLUUrhweRgNmImVMvr67BIiNoCz8NfPsuVOkokwIaNm/wDWViVukZIL3sGoDAxGHPYDzXui9DU8aj6lOWscWte4NBqavcbBxLZiTzG9XOr3TN0bmnTc+u8Oe7t21Y+zihqZBpPcc14wIABDogRjpXHE+Wd8to4hF31enXY6P2O9d36CVNbR1oQAP5FMQJw1WgRjjsXC+lGjqNG9rC3cOxIDmtYZaxxPeaIwgETGyYXYeqivraOpgn2H1Gcv5jnAeTgtMPEzDDqPurFm4IiLocgiIgIiICIiAiIgIiICIiAofpho8V7G5olpdr0XgAZk6pIjA4zGw8iphEHxKTgPNUrZ+leh20NIXlJ+tqU3veAAA5zXOHZgbBJqNk7gcJwWsvZJkFRtbS7QzHrhKlLGnJCjw4Ry5e7DBZVncQVS7XG3yzrNDA0AZQecK1V0V2jtYZ5Tko+yrLYrKoDh62LlnburqVWj7Go0RJIJxxaMjvgkq/d3RYCGRrxEt9loG4nOOKvCnOW3Z6zVN9agU3EwABt3BTEyiYhqjagLpOQ9/r5rYLaqCzLDYte0Zox75fxJDRu4rZdCWbXHVLwDxWd+WmPcManchhLSJYcxu4hZVSxc4dxwLdgM4eRA9yvad0SabgAQThBafFWmsMSJBGew/th7latuNK2rztEXNmWkkwSt/wCpW/n7VQyh7Kw/O3Ud5dmzzWn3RwMyfXBZ3VhdCnpNgB/q06lLxA7X/lZ8Vpi4sxzc0l3FERdbzxERAREQEREBERAREQEREBERBw3r20Q5lwLgAalaj2ZdtD6TnVIPOWEf7srj9amQwbs+ZX0L1+WpdY06gyp1jrcA+lUbPnA/MuE6SrtloGLWgBZ2nlvSImqKoRJB2hKboclyIII24q2FZXw2PR9zktq0dWGAK0C2qwth0deLC9XTju6FYuBIx9YKF6wXVuyApg6pOIG7cqdH3kiJhY+ntNAu1QcGjHwzJnbkqxGlpnbWaVa7DdenU1IEFpEfEK7o7StyT7GsdhbAmNwOeWzcvK1y58AAmTlEAcYnEcSpHQehapIx1SN4nCYOUAz45hW7Y1zCndO+Jl63StzUho1KZ/E8kgZ4gNBlT3RJlUsc6s8vJMAwAY3kcZUPpjo69hJG2XZHCcdmO3JWNF6UqUfaxbMHaN2wZZqIpHstOS2/ubLpVkSB6wWP0Cd/2raR+N//AONU/ALG0jeawBBwOKy+qtnaaWon8Dar/wD43M/1qax90IvP2S+gURF0uEREQEREBERAREQEREBERAREQQnTTQv2yyr24jWeyWTgO0YQ+nPDXa2eEr5Zp0CzXa4QQSNV2bYwLTuIOEL7BXLutzoFRfbV722pat02Kj9TWio0HvywYa8SdYCTGKraNr0tp8/3tGGg4Z5LEpqUsYIbUObXwTwI+h9xXum7cDVc0Z5xvUR8Lz8sRgWbbPhYNB6z6cSqytVLf7R1Gzw+qw7em+q/uzrHCN42DHiPcrdUEhXtH0Dq4mCMBwg4HifXOI1ELTuZTmjdBXZdiwbIHaM55zj4eC27Rdncju6jRG3WYcBIw7+OBWk2em61I99uuB94Z/QrbtC9OKDR3yyd1RpHHPLM71jabOjHFPdJ6RsLhrMGgz/cxxxk444Bc+6V2tSk9pNMhr51tokRGIwnH3BdDd05tXNID6R3DWn3DFal0iv2126jBLRiTx2ROP7BRSZiU5a1mvHlBWlYmlmSJIk7YzW7dR9uXaRqPjBlu8fmdUpR7muWl9n2dNrd2PKcYHuXUuoWwindXB+89lIf+m0vdHPtQPyrevqct+KOroiLZzCIiAiIgIiICIiAiIgIiICIiAiIg+a+s7ocdH3FVzMbe4Jq0o+4Q6XUzyL8OHitIp3AezUPh68l9Q9Z+hRdaOrsiXsaazP8qYJgc26zfzL5PCrPlrWeFbZBUha1JgKPNWc81XTqQqzC0TpPUWgws1tvuPr18FB2tzs9YKesXzGPoYfL3rOeGteV6jQOcbvmpjRlhTce8B5LEZhuV1twRiDH6Kq7K0totjBhHu+SwKFABXTck4euau6sNUJ0hdIg7BJ3DM7o3lfQ/QfQn2Oxo0D7YbrVP948l78doDiQOAC5l1ZdGjdXP2qo3+RQdLZiH1hi2ODMHHjqbiF2pb4493LmtzoREWjEREQEREBERAREQEREBERAREQEREHj2ggg4g4HkvjbT+jjb3VegZ/lVX08doa4gHxEHxX2Uvmrrz0Z2WlXvGVemyr4x2Z97J8VWzSnvDnT2qkFZD24LGKhbwusepjR2kYwPJQbQVda1yiYWrLcaV0CMD63qtlyBt89y1Gm+oMlfY2qdqzmrWLNsZetI2euSpudJS0huJ3qJstHudmSVK/YwAqL7fRnRShTZZ2zaTQ1nYscAP7mhxPEkkknaSVKqA6BXTamjrUtM6tFlM8HU2hjgeMtKn11R4cE+RERSgREQEREBERAREQEREBERAREQEREBcb/AIjNHTTtbgfde6k78wDm/wD0d5rsi5Z136at32j7MO1rgObUgZM1SJ1j+Ih0R/djGE1t4XxxM24cHFPurBqNxUjZukLHuqeKziedN7RxtXYUmk4qZZaNAklRFqwzgp23pEgThy/cLO9uWlKxpbpWw/aVn29mCvaNMTv54/VTFnTn1Cp3NYqpt7UAZeaqurc6pUjSpgKurSlRtPa96AdLfsFR7KusbaoQXRiWPgDXA2iMCBjAEZQe02ulaFRgqMrU3Mdk4OEfvwXzve28TzWVoPROPauGA9kb+J+S0nP2V5VxdFPUZO2P1fRIK9XKND6fuLfBjpp/gdi3w2t8Pet66P8ASejcgAlrKsx2ZdieLZjWHJWxdRTJx7o6v6Zm6f7vNfmP5hOoiLoecIiICIiAiIgIiICIiAitXFyymNZ72saNriGjzK1HTvWVY0AQxxrv3U/Zni84RylRNojyvTHa/phua1jpJ07srOWvqdpVH/h04c4H+45M5EzwK5H0k6xr26lod2NL8FMkE/5P9p3hAO5aOyr3xOX0WNsvw7sfQ+9/2dA6R9Zl3cOLGHsKWbm0ydeNgNTOeWrhvWhXV6ZqknvBrQPF0u96oaCMTm4lx5DL1yUTpMnW5/oq13NuW2asUxTFY0yKAh5GycORxCv3luIlUPbjSePvNA8QP3WwVLQupa0BRedS56RuEFaAhSlOs6M1ZZbbjC9YCDvVJnbSI0zqNXHGFLW1xuCirdvBSdq0rOZaxCUtyTmY4D6qSpkQoyjyWU1xmBiT6+ir3L1xzadR5WK1oHujjJ5fqpQNgAKmjR1RxOJO8qqq6PXr1zXNkv3y93penjDTXvPlS7JYz2yvXVCSq3MwVfDr0lNE9K7q3ga/aM/BUk+TvaHvHBbrofptbVoDz2L9z/ZPJ+XnB4LmDirLl04+ovX8XndT9LwZudan5h3kFeri+h9P3Nt/Sf3PwO7zPL7v5SFvehunlvVhtb+S/ecWHk7Z+YDmV24+opb8Hz/U/S82HmPuj8P6baipp1A4BzSCDiCDIPIhVLoeaIiICIsDTeladtRdWqZNGA2uccmjifqdiTOk1rNp1C3p7TlG0p69V2fstGLnkbGj55CVyjpD1j3VYltI9izczF5HF+YP+MKM03pKrdVHVahknIbGt2NaNgH65qDFOSuG+eZnUPpOk+l1pWLX5lZu7p9R2s9znO3uJcfM4rFdTlZNwxe29EnACSVn3O6cNfEI/s9itNtsZjkthbYQMcSqBbJF1JwcIG6adu5QulqeIdzC224tZLhu+gI+awLjR/aNLMjm07iMvBaUvES5eo6WbY5iPKH7WadNu0NDh4Ek+4roGjbYOtxhmubOpOpuAeILTBB2DJdS6Ntm2pnfHuwVs3tLy8ETuYlqV5RNMmViBxJW7dIbERMLVtH2hdVAGQxKzidtLV1KTsbfDFStvTAyVYt9wWZQt8clnNveW+PHa06rChtODvO5ZtvR1eJ3/TgvadIN5+vIK8ATgFz3vt7HT9PGKNz5UlY93Rxa6cAQ0j/I4HwMeBKzXUeKt1BIIOIIjzWcS6d/C05gAWPVqKya7iIOYMHmPrn4qjUKvENYel6tucqtWFQ4gKR4XKtoJVVGlOJV0NTaJja7Y3teiZo1HM4NOB5tyPiFs+i+sCswgXDBUb+JndeOMey7/hWrhqqNNaUzXr4ly5ujwZvXX9ff93SP+ndj/wCY7/23/RermnYherb/ADb/ABDg/wCkwfM/vH9O3rifWZ0mNxcNosP8ljtVsfed993EYEDgJ2rovWBps21tqtMVax7Nm8CO+7wGE73BcRNLWu2N2NbPwHzK6Ooya+1wfS+l7onLP5R/MpevT1afH6qKphT2lB3YUBbgvcQOXhtK4KTuNvpp40p7AvOqM/kpqhaBggeJVy2tgwetqvEKJttXXuxH0lbbQWVUSk1NomEXeW+o4VPu5P4DY7wOfAlUXVhhrN54bP04rYBTB5LCqaPfT/pDWZ+CYLf8CcI/tOG4hIudsNfrsa+G1qTXjISCCOThiPNbPoc02U2sY0hrcQCSfDHFRr69Ke93HTk/uHwnunwKkrYsiQRHMH4FTa06U/4MVp3MRP8AtkaSpisIMgcP1WJo/Q9OkSW6xJxxj5ALM7VozIEbyBs4lVNuGnIz/j3vhkqd9lf8bDv0qwwDYvS7cvGtcdkc/oFeZSjj62Kkz8tIiteIUMpHM5K6IGS9cF4VBvahxQsgKtoVus9E7R9VsVf8m6w5twPuLVVVbCv3LYDXkYh3/CRHzB8FgX9wrxyvWeFqpVV20tS4yctipsLYvMnJTBaGiFMzotZjPbCtE7Nqqr1YEquxoT3iqm9RuVTKaqLVcrHGNqaihTazHBFd1F4ie5L9bv8AXtOVT/SufaO/767/AB+a9Rd3Ueu35PM+mf8Amp+aZ0p7Kh9Bfe8PiiLmr6Xq28wmx9EfmiKqFpyuUvmvEUoZVLar+xEWcpR2m/YPretSZmiLfF4Z5PZPaAz9blso2c0RZZPUmPCluxXV4izJE2rxEQqOSxK2Y5IitBVTpP8A0P8AgFC32freiK9F6+lN6PyHrcrl1sRFT3Vn1Iu79oKZt/ZHh8l6im3hOTxDGP8AUV9yIoRPssoiKUv/2Q=="
+                                      alt=""
+                                  />
+                                  <div class="flex flex-col">
+                                      <h4 class="text-[14px] font-medium">
+                                          Brooklyn Simmons
+                                      </h4>
+                                      <p class="text-[12px] text-[#AAA]">
+                                          UI/UX Designer at Freelance
+                                      </p>
+                                      <p class="text-[10px] text-[#AAA]">
+                                          7 hour ago
+                                      </p>
+                                  </div>
+                              </div>
+
+                              <img
+                                  class="cursor-pointer size-6"
+                                  src="./assets/more-horizontal (1) 1 (1).svg"
+                                  alt=""
+                              />
+                          </div>
+
+                          <hr class="border-t" />
+
+                          <div class="mr-[52px] mt-5 text-[14px] pb-4">
+                              <p class="">
+                                  Amet minim mollit non deserunt ullamco est
+                                  sit aliqua dolor do amet sint. Velit officia
+                                  consequat duis enim velit mollit.
+                                  Exercitation veniam consequat sunt nostrud
+                                  amet.
+                              </p>
+
+                              <div
+                                  class="flex gap-1 mt-2 text-[#006699] font-medium"
+                              >
+                                  <span>#Guy Hawkins</span>
+                                  <span>#Esther Howard</span>
+                                  <span>#Jacob Jones</span>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                     
+  
+                <!-- sag -->
+                 
+                 
+              </div>
+              <aside class="hidden lg:block w-[270px] shrink-0 mt-[16px]">
+                <!-- Add to Your Feeds -->
+                <div class="bg-white rounded-[6px] py-5 px-4">
+                    <h4 class="text-[14px] font-medium">
+                        Add to Your Feeds
+                    </h4>
+
+                    <hr class="border-t mt-2" />
+
+                    <div class="mt-4 flex flex-col gap-4">
+                        <div class="flex items-center">
+                            <a href="#"><img
+                              class="size-6 rounded-full"
+                              src="https://cdn.techinasia.com/data/images/851a67f98c6a05d65ba06645f55c090b.png"
+                              alt=""
+                          /></a>
+                            <div class="ml-2">
+                                <a href="#"><h4
+                                  class="text-[14px] font-medium line-height-[16px]"
+                              >
+                                  Techin Asia Indonesia
+                              </h4></a>
+                                <div
+                                    class="flex gap-2 text-[12px] text-[#AAA] items-center line-height-[14px]"
+                                >
+                                    <span>Corporate</span>
+                                    <span
+                                        class="size-[4px] rounded-full block bg-[#AAA]"
+                                    ></span>
+                                    <span>Online Media</span>
+                                </div>
+                            </div>
+                            <button
+                                class="ml-auto border rounded-[4px] text-[#006699] border-[#006699]"
+                            >
+                                <i
+                                    class="fa-solid text-[12px] p-[6px] fa-plus"
+                                ></i>
+                            </button>
+                        </div>
+
+                        <div class="flex items-center">
+                            <a href="#"><img
+                              class="size-6 rounded-full"
+                              src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
+                              alt=""
+                          /></a>
+                            <div class="ml-2">
+                                <a href="#"><h4
+                                  class="text-[14px] font-medium line-height-[16px]"
+                              >
+                                  Figma Indonesia
+                              </h4></a>
+                                <div
+                                    class="flex gap-1 text-[12px] text-[#AAA] items-center line-height-[14px]"
+                                >
+                                    <span>Design Platform</span>
+                                </div>
+                            </div>
+                            <button
+                                class="ml-auto border rounded-[4px] text-[#006699] border-[#006699]"
+                            >
+                                <i
+                                    class="fa-solid text-[12px] p-[6px] fa-plus"
+                                ></i>
+                            </button>
+                        </div>
+
+                        <div class="flex items-center">
+                            <a href="#"><img
+                              class="size-6 rounded-full"
+                              src="https://pbs.twimg.com/profile_images/987022334988050432/MtSVQevd_400x400.jpg"
+                              alt=""
+                          /></a>
+                            <div class="ml-2">
+                                <a href="#"><h4
+                                  class="text-[14px] font-medium line-height-[16px]"
+                              >
+                                  Uplabs
+                              </h4></a>
+                                <div
+                                    class="flex gap-1 text-[12px] text-[#AAA] items-center line-height-[14px]"
+                                >
+                                    <span>Design Marketplace</span>
+                                </div>
+                            </div>
+                            <button
+                                class="ml-auto border rounded-[4px] text-[#006699] border-[#006699]"
+                            >
+                                <i
+                                    class="fa-solid text-[12px] p-[6px] fa-plus"
+                                ></i>
+                            </button>
+                        </div>
+
+                        <button
+                            class="text-[#006699] font-medium tex-[14px] mt-9 w-full"
+                        >
+                            See All Recomendation
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Advertisement -->
+                <div class="mt-5 bg-white rounded-[6px] py-5 px-4">
+                    <div class="flex items-center justify-between">
+                        <h3 class="text-[14px] font-medium">
+                            Advertisement
+                        </h3>
+
+                        <img
+                            class="cursor-pointer size-6"
+                            src="./assets/more-horizontal (1) 2.svg"
+                            alt=""
+                        />
+                    </div>
+                    <p class="text-[10px] text-[#AAA]">
+                        Get the latest news and job vacancies
+                    </p>
+
+                    <hr class="border-t mt-2" />
+
+                    <div class="flex justify-around mt-5">
+                       <a href="#"> <img
+                        class="size-[72px] rounded-full flex-shrink-0"
+                        src="https://media.licdn.com/dms/image/D4D03AQHwRkiwr77zfA/profile-displayphoto-shrink_100_100/0/1719563178352?e=1727308800&v=beta&t=ej5g1L_1DnJDt0967O9au3J_ilIMmMby6DalzIlhzEk"
+                        alt=""
+                    /></a>
+                       <a href="#"> <img
+                        class="size-[72px] rounded-full"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1UTxR9agSHH_kxXvWMNUVWcrZrIGy5KpgPw&s"
+                        alt=""
+                    />
+                </div></a>
+
+                    <p class="text-[14px] line-height-[20px] mt-5">
+                        Mustafa, Get update from
+                        <span class="font-medium"
+                            > Ataturk University</span
+                        >
+                    </p>
+
+                    <button
+                        class="text-[#006699] font-medium tex-[14px] mt-9 w-full"
+                    >
+                        Visit Now
+                    </button>
+                </div>
+
+                <!-- LinkedIn Corporation -->
+                <a href="#"><div class="mt-[52px] text-[10px] text-[#AAA]">
+                  <div class="flex flex-wrap gap-5">
+                      <span>About</span>
+                      <span>Help Center</span>
+                      <span>Accessibility</span>
+                      <span>Privacy & Terms</span>
+                      <span>Ad Choices</span>
+                      <span>Advertising </span>
+                      <span>Business Services </span>
+                      <span>Get the LinkedIn app</span>
+                      <span>More</span>
+                  </div>
+</a>
+                    <hr class="mt-4" />
+
+                    <div class="mt-3 flex items-center justify-between">
+                      <a href="#"><p>LinkedIn Corporation © 2020</p></a>  
+                        <!-- logo -->
+                       <a href="#"> <img
+                        class="w-[42px] h-[12px]"
+                        src="./assets/linkedin 1 (3).svg"
+                        alt=""
+                    /></a>
+                    </div>
+                </div>
+
+                <!-- Massaging -->
+                <div
+                    class="flex justify-between items-center bg-gradient-to-r from-[#008399] to-[#006699] rounded-t-[6px] p-3 cursor-pointer fixed bottom-0 right-0 w-[270px]"
+                >
+                    <!-- avatar -->
+                    <div class="flex">
+                        <div class="flex flex-col items-center">
+                            <img
+                                class="size-[32px] rounded-full border border-1"
+                                src="https://media.licdn.com/dms/image/D4D03AQHwRkiwr77zfA/profile-displayphoto-shrink_100_100/0/1719563178352?e=1727308800&v=beta&t=ej5g1L_1DnJDt0967O9au3J_ilIMmMby6DalzIlhzEk"
+                                alt=""
+                            />
+                            <div
+                                class="size-[10px] bg-[#31B057] rounded-full mt-[-5px] border border-1"
+                            ></div>
+                        </div>
+                        <p class="text-[14px] text-white ml-2 mt-2">
+                            Massaging
+                        </p>
+                    </div>
+
+                    <div class="flex items-center gap-3">
+                        <i
+                            class="fa-regular text-[16px] text-white fa-pen-to-square"
+                        ></i>
+                        <i
+                            class="fa-solid fa-ellipsis text-[16px] text-white"
+                        ></i>
+                        <i
+                            class="fa-solid fa-angle-up text-[16px] text-white"
+                        ></i>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+</main>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+    
+  </body>
+</html>

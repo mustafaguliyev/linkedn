@@ -1,0 +1,21 @@
+<svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="19" height="18" fill="#006699"/>
+<g id="Home" clip-path="url(#clip0_0_1)">
+<rect width="1440" height="1024" transform="translate(-269 -19)" fill="#F5F6F8"/>
+<g id="Nav bar">
+<rect id="Rectangle 1" x="-269" y="-19" width="1440" height="56" fill="white"/>
+<g id="Group 2">
+<rect id="Rectangle 2" x="-9" y="-7" width="312" height="32" rx="4" fill="#DEDEDE" fill-opacity="0.32"/>
+<g id="search (1) 1">
+<path id="Vector" d="M8.60609 14.25C11.9882 14.25 14.7299 11.5637 14.7299 8.25C14.7299 4.93629 11.9882 2.25 8.60609 2.25C5.22398 2.25 2.48224 4.93629 2.48224 8.25C2.48224 11.5637 5.22398 14.25 8.60609 14.25Z" stroke="#AAAAAA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M16.2609 15.75L12.9311 12.4875" stroke="#AAAAAA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_1">
+<rect width="1440" height="1024" fill="white" transform="translate(-269 -19)"/>
+</clipPath>
+</defs>
+</svg>
